@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_page_abouts",
+  "info": {
+    "displayName": "about",
+    "icon": "baby",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 100
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

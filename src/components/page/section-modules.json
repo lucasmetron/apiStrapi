@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_section_modules",
+  "info": {
+    "displayName": "sectionModules",
+    "icon": "align-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "modules": {
+      "displayName": "models",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.models",
+      "required": true,
+      "min": 2
+    }
+  }
+}
